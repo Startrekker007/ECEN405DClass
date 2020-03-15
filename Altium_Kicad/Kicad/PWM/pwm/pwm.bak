@@ -1,0 +1,256 @@
+EESchema Schematic File Version 4
+LIBS:pwm-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Opamp_Dual_Generic U?
+U 1 1 5E67F36B
+P 2350 1900
+F 0 "U?" H 2350 2267 50  0000 C CNN
+F 1 "Opamp_Dual_Generic" H 2350 2176 50  0000 C CNN
+F 2 "" H 2350 1900 50  0001 C CNN
+F 3 "~" H 2350 1900 50  0001 C CNN
+	1    2350 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Opamp_Dual_Generic U?
+U 2 1 5E68044E
+P 4050 1900
+F 0 "U?" H 4050 2267 50  0000 C CNN
+F 1 "Opamp_Dual_Generic" H 4050 2176 50  0000 C CNN
+F 2 "" H 4050 1900 50  0001 C CNN
+F 3 "~" H 4050 1900 50  0001 C CNN
+	2    4050 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:VSOURCE V?
+U 1 1 5E682BEE
+P 2050 950
+F 0 "V?" H 2278 996 50  0000 L CNN
+F 1 "POWER SUPPLY" H 2278 905 50  0000 L CNN
+F 2 "" H 2050 950 50  0001 C CNN
+F 3 "~" H 2050 950 50  0001 C CNN
+	1    2050 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E683A32
+P 2850 750
+F 0 "R?" H 2918 796 50  0000 L CNN
+F 1 "10k" H 2918 705 50  0000 L CNN
+F 2 "" V 2890 740 50  0001 C CNN
+F 3 "~" H 2850 750 50  0001 C CNN
+	1    2850 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5E684505
+P 2850 1050
+F 0 "R?" H 2918 1096 50  0000 L CNN
+F 1 "10k" H 2918 1005 50  0000 L CNN
+F 2 "" V 2890 1040 50  0001 C CNN
+F 3 "~" H 2850 1050 50  0001 C CNN
+	1    2850 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 900  3250 900 
+Connection ~ 2850 900 
+Text Label 3250 900  0    50   ~ 0
+V_REF
+Wire Wire Line
+	2850 600  2050 600 
+Wire Wire Line
+	2050 600  2050 650 
+Wire Wire Line
+	2850 1200 2850 1250
+Wire Wire Line
+	2850 1250 2300 1250
+Text Label 2100 600  0    50   ~ 0
+VCC
+$Comp
+L power:GND #PWR?
+U 1 1 5E68500A
+P 2300 1250
+F 0 "#PWR?" H 2300 1000 50  0001 C CNN
+F 1 "GND" H 2305 1077 50  0000 C CNN
+F 2 "" H 2300 1250 50  0001 C CNN
+F 3 "" H 2300 1250 50  0001 C CNN
+	1    2300 1250
+	1    0    0    -1  
+$EndComp
+Connection ~ 2300 1250
+Wire Wire Line
+	2300 1250 2050 1250
+$Comp
+L Device:R_US R2
+U 1 1 5E68562C
+P 2200 2400
+F 0 "R2" V 1995 2400 50  0000 C CNN
+F 1 "10k" V 2086 2400 50  0000 C CNN
+F 2 "" V 2240 2390 50  0001 C CNN
+F 3 "~" H 2200 2400 50  0001 C CNN
+	1    2200 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R1
+U 1 1 5E685DE6
+P 2950 2650
+F 0 "R1" V 2745 2650 50  0000 C CNN
+F 1 "8k2" V 2836 2650 50  0000 C CNN
+F 2 "" V 2990 2640 50  0001 C CNN
+F 3 "~" H 2950 2650 50  0001 C CNN
+	1    2950 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R5
+U 1 1 5E68654A
+P 3550 2000
+F 0 "R5" V 3345 2000 50  0000 C CNN
+F 1 "1k" V 3436 2000 50  0000 C CNN
+F 2 "" V 3590 1990 50  0001 C CNN
+F 3 "~" H 3550 2000 50  0001 C CNN
+	1    3550 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L pspice:CAP C?
+U 1 1 5E6872C5
+P 4000 2450
+F 0 "C?" V 3685 2450 50  0000 C CNN
+F 1 "10n" V 3776 2450 50  0000 C CNN
+F 2 "" H 4000 2450 50  0001 C CNN
+F 3 "~" H 4000 2450 50  0001 C CNN
+	1    4000 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Variable_US R3
+U 1 1 5E688024
+P 2500 2400
+F 0 "R3" V 2255 2400 50  0000 C CNN
+F 1 "1M" V 2346 2400 50  0000 C CNN
+F 2 "" V 2430 2400 50  0001 C CNN
+F 3 "~" H 2500 2400 50  0001 C CNN
+	1    2500 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Variable_US R4
+U 1 1 5E688DB6
+P 2800 1900
+F 0 "R4" V 2555 1900 50  0000 C CNN
+F 1 "100k" V 2646 1900 50  0000 C CNN
+F 2 "" V 2730 1900 50  0001 C CNN
+F 3 "~" H 2800 1900 50  0001 C CNN
+	1    2800 1900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2950 1900 3400 1900
+Wire Wire Line
+	3400 1900 3400 2000
+Wire Wire Line
+	3700 2000 3750 2000
+Wire Wire Line
+	3700 2000 3700 2450
+Wire Wire Line
+	3700 2450 3750 2450
+Connection ~ 3700 2000
+Wire Wire Line
+	4250 2450 4350 2450
+Wire Wire Line
+	4350 2450 4350 1900
+Wire Wire Line
+	3100 2650 4350 2650
+Wire Wire Line
+	4350 2650 4350 2450
+Connection ~ 4350 2450
+Wire Wire Line
+	2800 2650 2050 2650
+Wire Wire Line
+	2050 2650 2050 2400
+Wire Wire Line
+	2050 2400 1900 2400
+Wire Wire Line
+	1900 2400 1900 1800
+Wire Wire Line
+	1900 1800 2050 1800
+Connection ~ 2050 2400
+Wire Wire Line
+	2050 2000 1800 2000
+Wire Wire Line
+	2650 2400 2650 1900
+Connection ~ 2650 1900
+Wire Wire Line
+	3750 1800 3650 1800
+Wire Wire Line
+	3650 1800 3650 1550
+Text Label 3650 1550 1    50   ~ 0
+V_REF
+Text Label 1800 2000 2    50   ~ 0
+V_REF
+$Comp
+L Comparator:LM319 U?
+U 1 1 5E68B8BB
+P 5350 1800
+F 0 "U?" H 5350 2167 50  0000 C CNN
+F 1 "LM319" H 5350 2076 50  0000 C CNN
+F 2 "" H 5350 1800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm319-n.pdf" H 5350 1800 50  0001 C CNN
+	1    5350 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 1900 5050 1900
+Connection ~ 4350 1900
+Text Label 5050 1700 2    50   ~ 0
+V_SIG
+$Comp
+L power:GND #PWR?
+U 1 1 5E68DB4F
+P 5350 2100
+F 0 "#PWR?" H 5350 1850 50  0001 C CNN
+F 1 "GND" H 5355 1927 50  0000 C CNN
+F 2 "" H 5350 2100 50  0001 C CNN
+F 3 "" H 5350 2100 50  0001 C CNN
+	1    5350 2100
+	1    0    0    -1  
+$EndComp
+Text Label 5650 1800 0    50   ~ 0
+PWM
+$Comp
+L Device:R_US R?
+U 1 1 5E6D7A5D
+P 4300 750
+F 0 "R?" H 4368 796 50  0000 L CNN
+F 1 "10k" H 4368 705 50  0000 L CNN
+F 2 "" V 4340 740 50  0001 C CNN
+F 3 "~" H 4300 750 50  0001 C CNN
+	1    4300 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 600  2850 600 
+Connection ~ 2850 600 
+Text Label 4300 900  3    50   ~ 0
+PWM
+$EndSCHEMATC
