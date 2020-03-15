@@ -253,4 +253,29 @@ Wire Wire Line
 Connection ~ 2850 600 
 Text Label 4300 900  3    50   ~ 0
 PWM
+$Comp
+L Device:Opamp_Dual_Generic U1
+U 3 1 5E6D8DAD
+P 5000 900
+F 0 "U1" H 4958 946 50  0000 L CNN
+F 1 "TLE2082" H 4958 855 50  0000 L CNN
+F 2 "" H 5000 900 50  0001 C CNN
+F 3 "~" H 5000 900 50  0001 C CNN
+	3    5000 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 600  4900 600 
+Connection ~ 4300 600 
+$Comp
+L power:GND #PWR?
+U 1 1 5E6DAD62
+P 4900 1200
+F 0 "#PWR?" H 4900 950 50  0001 C CNN
+F 1 "GND" H 4905 1027 50  0000 C CNN
+F 2 "" H 4900 1200 50  0001 C CNN
+F 3 "" H 4900 1200 50  0001 C CNN
+	1    4900 1200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
