@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.8)  15 MAR 2020 14:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.8)  16 MAR 2020 20:58
 entering extended mode
 **./document.tex
 (document.tex
@@ -1266,33 +1266,38 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [1{C:/Users/Keshav/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
- <./screenshot001.png (PNG copy)> <./screenshot002.png (PNG copy)>] [2 <./scree
-nshot003.png (PNG copy)>] (document.aux) ) 
+ <./screenshot001.png (PNG copy)> <./screenshot002.png (PNG copy)>]
+<crossing.jpg, id=21, 3566.32375pt x 2466.21375pt>
+File: crossing.jpg Graphic file (type jpg)
+<use crossing.jpg>
+Package pdftex.def Info: crossing.jpg  used on input line 88.
+(pdftex.def)             Requested size: 499.22174pt x 345.1923pt.
+ [2 <./screenshot003.png (PNG copy)> <./crossing.jpg>] [3] (document.aux) ) 
 Here is how much of TeX's memory you used:
- 35003 strings out of 492946
- 777781 string characters out of 3125823
- 1059996 words of memory out of 3000000
- 38487 multiletter control sequences out of 15000+200000
+ 35010 strings out of 492946
+ 777878 string characters out of 3125823
+ 1060004 words of memory out of 3000000
+ 38492 multiletter control sequences out of 15000+200000
  567724 words of font info for 101 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,15n,65p,434b,586s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/Keshav/AppData/Local/Progra
-ms/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Users/Keshav/AppData/Local/Progra
-ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Keshav/AppDat
-a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/
-Keshav/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.p
-fb><C:/Users/Keshav/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmr6.pfb><C:/Users/Keshav/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmr7.pfb><C:/Users/Keshav/AppData/Local/Programs/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Keshav/AppData/Local/Programs/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Keshav/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Use
-rs/Keshav/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C
-:/Users/Keshav/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.
-pfb>
-Output written on document.pdf (2 pages, 187421 bytes).
+{C:/
+Users/Keshav/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/
+Users/Keshav/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mmi10.pfb><C:/Users/Keshav/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmmi8.pfb><C:/Users/Keshav/AppData/Local/Programs/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Keshav/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Keshav/AppData/Local/
+Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Keshav/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Use
+rs/Keshav/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy
+10.pfb><C:/Users/Keshav/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
+sfonts/symbols/msbm10.pfb><C:/Users/Keshav/AppData/Local/Programs/MiKTeX 2.9/fo
+nts/type1/urw/times/utmr8a.pfb><C:/Users/Keshav/AppData/Local/Programs/MiKTeX 2
+.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on document.pdf (3 pages, 2488781 bytes).
 PDF statistics:
- 56 PDF objects out of 1000 (max. 8388607)
+ 60 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 28 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
