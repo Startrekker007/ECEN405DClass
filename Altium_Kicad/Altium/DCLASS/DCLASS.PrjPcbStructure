@@ -1,0 +1,4 @@
+Record=TopLevelDocument|FileName=MASTER.SchDoc
+Record=SheetSymbol|SourceDocument=MASTER.SchDoc|Designator=U_FILTER|SchDesignator=U_FILTER|FileName=FILTER.SchDoc|SymbolType=Normal|RawFileName=FILTER.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=MASTER.SchDoc|Designator=U_POWER_STAGE|SchDesignator=U_POWER_STAGE|FileName=POWER_STAGE.SchDoc|SymbolType=Normal|RawFileName=POWER_STAGE.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=MASTER.SchDoc|Designator=U_PWM_CONTROLLER|SchDesignator=U_PWM_CONTROLLER|FileName=PWM_CONTROLLER.SchDoc|SymbolType=Normal|RawFileName=PWM_CONTROLLER.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
